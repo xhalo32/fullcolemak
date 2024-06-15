@@ -371,5 +371,5 @@ key SLASH {
 
 key CAPS_LOCK {
     base:                               replace DEL
-    shift:                              replace CAPS_LOCK
+    shift, ctrl, alt, meta, ralt:            replace DEL
 }
